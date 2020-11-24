@@ -1,3 +1,5 @@
+/*Content header*/
+
 header {
     background: #bbb;
 }
@@ -31,6 +33,23 @@ nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*Content home*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-centralizado {
+    
+}
+
+/*Content produtos*/
 
 .produtos {
     width: 960px;
@@ -77,22 +96,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-footer {
-    text-align: center;
-    background: url("img/bg.jpg");
-    padding: 40px 0px;
-}
-
-.copyright {
-    color: #fff;
-    font-size: 13px;
-    margin: 20px 0 0;
-}
-
-main {
-    width: 940px;
-    margin: 0 auto;
-}
+/*Content contato*/
 
 form {
     margin: 40px 0;
@@ -109,4 +113,18 @@ form input {
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+/*Content footer*/
+
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
